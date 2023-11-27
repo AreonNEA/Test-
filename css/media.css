@@ -1,0 +1,493 @@
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
+
+@media all and (max-width: 480px) {
+
+    .none {
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .none:hover {
+        transform: translate(110%, 50%);
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .none:hover+.navbar {
+        display: block;
+        position: absolute;
+        border-radius: 0 0 10px 10px;
+        transform: translate(100%, 60%);
+        background-image: linear-gradient(to top, rgba(126, 182, 147, 0.952), rgba(255, 255, 255));
+        box-shadow: 5px 5px 10px 1px rgba(92, 89, 89, 0.247);
+        padding: 10px;
+    }
+
+    #natural {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #natural .text {
+        text-align: center;
+    }
+
+    #natural .input a {
+        margin: 0 auto;
+    }
+
+
+
+    ul,
+    ul li {
+        padding: 2px 4px;
+        flex-direction: column;
+    }
+
+    #top {
+        padding: 0;
+    }
+
+    .cart {
+        padding: 1px 5px 0 40px;
+    }
+
+    .cart span {
+        display: none;
+    }
+
+    .logo {
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    #banner .flex {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+
+    .food {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .food .image {
+        order: 1;
+    }
+
+    #aboutus {
+        text-align: center;
+
+    }
+
+    .txt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .bgi {
+        display: none;
+
+    }
+
+    .input {
+        width: 100%;
+
+    }
+
+    .input a {
+        width: 100%;
+    }
+
+    .calumn {
+        margin: 10px;
+    }
+
+    .lineOne,
+    .lineTwo {
+        flex-direction: column;
+
+    }
+
+    .ourProducts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ourProducts img {
+        min-width: 200px;
+    }
+
+    .fresh {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to bottom right, rgba(0, 255, 42, 0.74), rgba(19, 94, 179, 0.836));
+        border-radius: 0 0 50% 50%;
+        overflow: hidden;
+        transform: translate(0, -60%);
+
+    }
+
+    .ourProducts .image {
+        max-width: none;
+        max-height: none;
+        min-width: none;
+        min-height: none;
+    }
+
+    #news .discover {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+
+    /***/
+
+    .end {
+        text-align: center;
+    }
+
+    #subscribe {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .wid {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .wid input  {
+        margin: 10px;
+    }
+
+    .nov {
+        text-align: center;
+        margin: 5px;
+    }
+
+    .rachiCard {
+        width: 100%;
+    }
+
+    .rachiCard span {
+        margin: 0 auto;
+
+    }
+
+    .rachiCard:hover {
+        z-index: 1;
+    }
+
+
+    .organicStore {
+        transform: translate(0, 0);
+    }
+
+
+    #eco {
+        background-image: url("../images/background.jpg");
+
+    }
+
+    .start,
+    .height,
+    .organicStore {
+        min-width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 10px 0;
+
+    }
+
+
+
+    #organicJFN {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .organicJuice,
+    .organicFood,
+    .nutsCookis {
+        margin: 5px;
+
+        text-align: center;
+    }
+
+    #offer .ourProducts {
+        margin: 10px;
+
+    }
+
+    #offer {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #offer .input a {
+        width: 100%;
+
+    }
+
+    #offer .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+
+    .none {
+        display: flex;
+
+    }
+
+    .none:hover {
+        transform: translate(100%, 50%);
+        rotate: calc(60deg);
+         
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .none:hover+.navbar {
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+        flex-direction: row-reverse;
+        background-image: linear-gradient(to bottom right, rgb(110, 207, 145), rgba(126, 182, 147, 0));
+        left: 0;
+        top: 105%;
+        padding: 10px;
+    }
+
+    ul,
+    ul li {
+        padding: 2px 4px;
+        width: 100%;
+    }
+
+    #top {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cart {
+        padding: 1px 5px 0 40px;
+    }
+
+    .logo {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #natural .flex {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    #natural {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #natural .text {
+        text-align: center;
+    }
+
+    #natural .input {
+        margin: 0 auto;
+    }
+
+    #banner .flex {
+        padding: 10px;
+    }
+
+    .food {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .food .image {
+        order: 1;
+    }
+
+    #aboutus {
+        text-align: center;
+
+    }
+
+    .txt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .bgi {
+        display: none;
+
+    }
+
+    .input {
+        width: 100%;
+
+    }
+
+    .input a {
+        width: 100%;
+    }
+
+    .lineOne,
+    .lineTwo {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .ourProducts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ourProducts img {
+        min-width: 200px;
+    }
+
+    .fresh {
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .end {
+        text-align: center;
+    }
+
+    #subscribe {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .wid {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .wid input  {
+        margin: 10px;
+    }
+
+    .nov {
+        text-align: center;
+        margin: 5px;
+    }
+
+    .rachiCard {
+        width: 100%;
+    }
+
+    .rachiCard span {
+        margin: 0 auto;
+
+    }
+
+    .rachiCard:hover {
+        z-index: 1;
+    }
+
+
+    .organicStore {
+        transform: translate(0, 0);
+    }
+
+
+    #eco {
+        background-image: url("../images/background.jpg");
+
+    }
+
+    .start,
+    .height,
+    .organicStore {
+        min-width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 10px 0;
+
+    }
+
+
+
+    #organicJFN {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .organicJuice,
+    .organicFood,
+    .nutsCookis {
+        margin: 5px;
+
+        text-align: center;
+    }
+
+    #offer .ourProducts {
+        margin: 10px;
+
+    }
+
+    #offer {
+        padding-top: 20px;
+    }
+
+    #news .discover {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+
+    #offer .input {
+        padding: 0;
+    }
+}

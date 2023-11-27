@@ -1,0 +1,17 @@
+#bgShop{
+    background-image: url("../images/bgPatterns.png");
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#bgShop h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+
+}

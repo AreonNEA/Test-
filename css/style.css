@@ -1,0 +1,252 @@
+#natural {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 488px;
+    padding: 150px;
+
+}
+
+
+#banner .flex {
+    padding: 100px 145px;
+    justify-content: center;
+}
+
+#banner .flex div {
+    margin: 5px;
+}
+
+
+
+/*aboutus*/
+#aboutus {
+    background-color: rgb(249, 248, 248);
+    padding: 50px;
+}
+
+
+#aboutus .flex {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutus .bgi {
+    background-image: url("../images/photo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50%;
+    height: 500px;
+}
+
+#aboutus .input {
+    background-color: rgb(39, 76, 92);
+    color: white;
+    margin-top: 20px;
+}
+
+.txt {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+
+.txt h2 {
+    width: 70%;
+}
+
+.food {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.food .image {
+    margin: 10px 10px 10px 0;
+}
+
+.food .calumn {
+    width: 60%;
+}
+
+.simply {
+    width: 85%;
+}
+
+#products .wih {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#products .input {
+    background-color: rgb(39, 76, 92);
+    color: white;
+}
+
+#ourCustomer {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
+
+.simply {
+    width: 53%;
+}
+
+.testimonial .star {
+    justify-content: center;
+
+}
+
+.name {
+    font-weight: bolder;
+}
+
+#ourCustomer .flex {
+    justify-content: center;
+    align-items: center;
+}
+
+#ourCustomer .hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fleximg div {
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+
+#offer {
+    background-color: rgb(39, 76, 92);
+}
+
+#offer .flex {
+    color: white;
+}
+
+.between>div {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+#offer .ourProducts {
+    margin: 1px;
+}
+
+.between .green {
+    padding: 0 100px;
+}
+
+
+.econis {
+    width: 100%;
+    display: flex;
+}
+
+.bgimg {
+    width: 50%;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.height {
+    display: flex;
+    align-items: center;
+}
+
+.organicStore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-color: rgba(255, 255, 255);
+    transform: translate(-50px);
+    height: 70vh;
+
+}
+
+.start {
+    width: 80%;
+
+}
+
+.organicStore h3 {
+    width: 50%;
+}
+
+#organicJFN {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(242, 248, 244);
+
+}
+
+.organicJuice, .organicFood, .nutsCookis {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    margin: 100px 0;
+}
+
+.organicJuice {
+    background-image: url("../images/zc.jpg");
+}
+
+.organicFood {
+    background-image: url("../images/zc.png");
+}
+
+.nutsCookis {
+    background-image: url("../images/zx.png");
+}
+
+.organicJuice a, .organicFood a, .nutsCookis a {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+#organicJFN a:hover {
+    background-color: rgb(39, 76, 92);
+    color: white;
+}
+
+#news .discover .input {
+
+    background-color: white;
+    color: rgb(39, 76, 92);
+    border: 1px solid;
+    border-color: rgb(39, 76, 92);
+    padding: 0 25px ;
+    height: 50px;
+}
